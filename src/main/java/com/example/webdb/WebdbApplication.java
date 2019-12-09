@@ -27,7 +27,7 @@ public class WebdbApplication implements CommandLineRunner {
     }
 
     public void run(String... var1) throws Exception {
-        final User testUser = new User("2", "David", "Mendez", "314 Nobes Ave Lockport, IL 60442");
+        final User testUser = new User("2", "David", "M", "123 cherry St., IL 60442");
 
         LOGGER.info("Saving user: {}", testUser);
 
